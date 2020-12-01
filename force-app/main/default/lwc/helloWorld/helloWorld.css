@@ -1,0 +1,9 @@
+.title {
+    font-size: var(--font-size-h1, 2rem);
+    color: var(--color-primary, #f9b4ab);
+}
+
+.subtitle {
+    font-size: var(--font-size-h2, 1rem);
+    color: var(--color-secondary, #f9b4ab);
+}
