@@ -4,8 +4,33 @@
     <isExposed>true</isExposed>
     <masterLabel>Theme</masterLabel>
     <targets>
-        <target>lightning__AppPage</target>
         <target>lightningCommunity__Default</target>
         <target>lightningCommunity__Page</target>
     </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+
+            <!-- Colors -->
+            <property name="colorPrimary" label="Color - Primary" type="Color"/>
+            <property name="colorSecondary" label="Color - Secondary" type="Color"/>
+            <property name="colorAccent1" label="Color - Accent 1" type="Color"/>
+            <property name="colorDanger" label="Color - Danger" type="Color"/>
+            <property name="colorWhite" label="Color - White" type="Color"/>
+
+            <!-- Font Sizes -->
+            <property name="fontSizeH1" label="Font Size - H1" type="String"/>
+            <property name="fontSizeH2" label="Font Size - H2" type="String"/>
+            <property name="fontSizeP" label="Font Size - P" type="String"/>
+            <property name="fontSizeSmall" label="Font Size - Small" type="String"/>
+
+            <!-- Spacings -->
+            <property name="spacingLarge" label="Spacing - Large" type="String"/>
+            <property name="spacingNormal" label="Spacing - Normal" type="String"/>
+            <property name="spacingSmall" label="Spacing - Small" type="String"/>
+
+            <!-- Borders -->
+            <property name="borderRadius" label="Border - Border Radius" type="String"/>
+
+        </targetConfig>
+    </targetConfigs>
 </LightningComponentBundle>
